@@ -148,8 +148,6 @@ header nav {
 }
 
 .skills-section-content-item {
-  /* width: 100px;
-  height: 100px; */
   background-color: #eeeeee;
   border-radius: 50%;
   padding: 30px;
@@ -159,5 +157,66 @@ header nav {
   width: 60px;
   height: 60px;
   object-fit: cover;
-  /* padding: 30px; */
+}
+
+/* Education Section */
+.education-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px;
+  /* width: 100%; */
+}
+
+.education-section h2 {
+  font-size: 44px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.education-section-content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.education-section-content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education-section-content-item h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  color: #444343;
+}
+
+.education-section-content-item-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-section-content-item-sub div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education-section-content-item-sub h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.education-section-content-item-sub p {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  color: #444343;
 }

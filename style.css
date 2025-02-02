@@ -18,6 +18,7 @@ body {
 .section {
   max-width: 1200px;
   width: 100%;
+  padding: 0 20px;
 }
 
 /* Header Section */
@@ -317,4 +318,137 @@ nav {
 ::-webkit-scrollbar-thumb {
   background-color: #000;
   border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  /* Navbar */
+  nav .social-icons {
+    display: none;
+  }
+
+  /* Top Hero Section */
+  .top-hero-content {
+    padding: 20px;
+  }
+
+  .top-hero-content h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .hero-section .hero-section-left {
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .hero-section .hero-section-left-content {
+    gap: 16px;
+  }
+
+  .hero-section .hero-section-left-content h3 {
+    font-size: 18px;
+  }
+
+  .hero-section .hero-section-right img {
+    width: 300px;
+    height: 400px;
+  }
+
+  /* Skills Section */
+  .skills-section {
+    padding: 40px 20px;
+  }
+
+  .skills-section h2 {
+    font-size: 30px;
+  }
+
+  .skills-section-content {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skills-section-content-item {
+    padding: 20px;
+  }
+
+  .skills-section-content-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Education Section */
+  .education-section {
+    padding: 40px 20px;
+  }
+
+  .education-section h2 {
+    font-size: 30px;
+  }
+
+  .education-section-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .education-section-content-item {
+    gap: 20px;
+  }
+
+  .education-section-content-item h3 {
+    font-size: 16px;
+  }
+
+  .education-section-content-item-sub h2 {
+    font-size: 18px;
+  }
+
+  .education-section-content-item-sub p {
+    font-size: 14px;
+  }
+
+  /* Projects Section */
+  .projects-section {
+    padding: 40px 20px;
+  }
+
+  .projects-section h2 {
+    font-size: 30px;
+  }
+
+  .projects-section-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .projects-section-content-item span {
+    font-size: 14px;
+  }
+
+  .projects-section-content-item h3 {
+    font-size: 18px;
+  }
+
+  .projects-section-content-item a {
+    font-size: 14px;
+  }
+
+  /* Footer Section */
+  .footer-content {
+    padding: 30px 0;
+  }
+
+  .footer-content h2 {
+    font-size: 14px;
+  }
 }

@@ -286,3 +286,18 @@ header nav {
   color: #000;
   text-decoration: underline;
 }
+
+/* Footer Section */
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  border-top: 1px solid #000;
+}
+
+.footer-content h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}

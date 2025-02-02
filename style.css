@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins ", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  flex-direction: column;
+}
+
+/* Common Class for all sections */
+.section {
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Header Section */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.profile-icon img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.social-icons img {
+  width: 34px;
+  height: 34px;
+}
+
+/* Top Hero Section */
+.top-hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-hero-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  width: 70%;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+.hero-section .hero-section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.hero-section .hero-section-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-section .hero-section-left-content span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.hero-section .hero-section-left-content h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.hero-section .hero-section-left-content-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-section .hero-section-left-content-links a {
+  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
+}
+
+.hero-section .hero-section-right img {
+  width: 420px;
+  height: 600px;
+  object-fit: cover;
+  background-color: #000;
+  border-radius: 300px;
+  padding: 20px;
+}
